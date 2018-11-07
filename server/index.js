@@ -1,8 +1,9 @@
 var express = require('express');
-var app = express();
 var path= require('path');
 var proxy = require('http-proxy-middleware');
-const port = 5373;
+
+var app = express();
+const port = process.env.PORT || 5373;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
