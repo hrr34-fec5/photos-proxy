@@ -1,0 +1,20 @@
+{
+    "routes": [
+        {
+            "route": "/pictures",
+            "address": "http://localhost:8080"
+        },
+        {
+            "route": "/Stephen",
+            "address": "http://localhost:3030"
+        },
+        {
+            "route": "/Vince",
+            "address": "http://localhost:1337"
+        },
+        {
+            "route": "/Sean",
+            "address": "http://localhost:3001"
+        }
+    ]
+}
