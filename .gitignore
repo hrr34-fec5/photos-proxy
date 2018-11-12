@@ -1,1 +1,6 @@
 node_modules/
+
+components/ground-n-grits-calendar-component/node_modules
+components/house-description-service/node_modules
+components/reviews-service/node_modules
+components/photo-stream2/node_modules
